@@ -1,4 +1,4 @@
 module "s3-bucket" {
-  source  = "terraform-aws-modules/s3-bucket/aws"
-  version = "3.14.1"
+  source  = "app.terraform.io/afristore/s3-bucket/aws"
+  version = "1.0.0"
 }
